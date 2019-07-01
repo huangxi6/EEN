@@ -55,7 +55,7 @@ class HumanDataSet(data.Dataset):
         im_name = self.im_list[index]
 
         im_path = os.path.join(self.root, self.dataset + '_images', im_name + '.jpg')
-        parsing_anno_path = os.path.join(self.root, self.dataset + '_segmentations', im_name + '.png')
+        parsing_anno_path = os.path.join(self.root, self.dataset + '_labels', im_name + '.png')
 
         im = cv2.imread(im_path, cv2.IMREAD_COLOR)
         h, w, _ = im.shape
