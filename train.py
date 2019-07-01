@@ -175,9 +175,9 @@ def main():
             new_params['.'.join(i_parts[0:])] = saved_state_dict[i]
     deeplab.load_state_dict(new_params)
     
-    # Initialize the model with CIHP_epoch_11.pth
+    # Initialize the model with cihp_11.pth
     """args.start_epoch = 11
-    res = './scihp_glr0.007_3edge/CIHP_epoch_11.pth'
+    res = './scihp/cihp_11.pth'
     state_dict = deeplab.state_dict().copy()
     state_dict_old = torch.load(res)
     for key, nkey in zip(state_dict_old.keys(), state_dict.keys()):
