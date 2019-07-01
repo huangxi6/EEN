@@ -4,7 +4,7 @@ CS_PATH='./dataset/LIP'
 BS=16
 GPU_IDS='1'
 INPUT_SIZE='473,473'
-SNAPSHOT_FROM='./slip_glr0.007_2edge/lip_149.pth'
+SNAPSHOT_FROM='./slip/lip_149.pth'
 DATASET='val'
 NUM_CLASSES=20
 
