@@ -6,7 +6,7 @@ This is an efficient implementation of EEN (Multi-class Human Body Parsing with 
 
 Plesae download [LIP and CIHP](http://sysu-hcp.net/lip/overview.php) dataset.
 
-Pascal-Person-Part dataset and trained models can be found at [baidu drive](https://pan.baidu.com/s/1nZImrFhtBLylFum3TmAoUg) (the password is '7cas') or [google drive](https://drive.google.com/open?id=1MDcTbIjA5XgP_tnrAN9yR3q41LObljFC)
+Pascal-Person-Part dataset and trained models can be found at [baidu drive](https://pan.baidu.com/s/1nZImrFhtBLylFum3TmAoUg) (the password is '7cas') or [google drive](https://drive.google.com/open?id=1MDcTbIjA5XgP_tnrAN9yR3q41LObljFC).
 
 
 ### Environments
@@ -41,17 +41,17 @@ python build.py
 
 + Please set the dataset dir in file 'run.sh'. The contents of each dataset include: 
 
-─ train_images   
+  ─ train_images   
 
-─ train_labels  
+  ─ train_labels  
 
-─ val_images  
+  ─ val_images  
 
-─ val_labels    
+  ─ val_labels    
 
-─ train_id.txt  
+  ─ train_id.txt  
 
-─ val_id.txt  
+  ─ val_id.txt  
 
 + Please put the pretrained resnet101-imagenet.pth in './dataset/'.
 
