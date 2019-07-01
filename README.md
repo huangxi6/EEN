@@ -34,7 +34,7 @@ cd libs
 sh build.sh
 python build.py
 ``` 
-+ The model is trained on two NVIDIA TITAN RTX 2080 Ti GPUs. It will take up about 16G.
++ The model is trained on NVIDIA TITAN RTX 2080 Ti GPU. It will take up about 16G.
 
 
 ### Training
