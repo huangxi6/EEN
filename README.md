@@ -59,5 +59,5 @@ python build.py
 
 ### Evaluation
 
-If you want to evaluate the trained models on LIP and CIHP, you can run the 'sh run_evaluate.sh'.
+If you want to evaluate the trained models on LIP and CIHP, you can run the `sh run_evaluate.sh`.
 
